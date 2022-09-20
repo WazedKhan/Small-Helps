@@ -7,5 +7,5 @@ class Profile(models.Model):
     p_phone = models.CharField(max_length=15)
     address = models.CharField(max_length=150)
 
-    def __str__(self) -> str:
-        return self.user
+    def __str__(self):
+        return self.p_name
